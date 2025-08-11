@@ -3,3 +3,4 @@ rubpy
 sqlalchemy
 requests
 Image
+pydantic
