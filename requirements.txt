@@ -1,3 +1,5 @@
 apscheduler
 rubpy
 sqlalchemy
+requests
+Image
