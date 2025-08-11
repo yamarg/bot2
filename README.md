@@ -33,3 +33,4 @@ pip3 install -U -r requirements.txt
 # rubika_bot
 # rubika_bot
 # bot2
+# bot2

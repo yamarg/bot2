@@ -231,7 +231,7 @@ def check_filter_words(update: Update):
                 print("خطا در فیلتر:", e)
             break
 
-@bot.on_message_updates(filters.is_group, filters.commands(['لیست فیلترها'], prefixes=''))
+@bot.on_message_updates(filters.is_group, filters.commands(['لیست فیلترها', 'لیست فیلتر ها'], prefixes=''))
 def show_filter_list(update: Update):
 
     if not update.is_admin(user_guid=update.author_guid):
